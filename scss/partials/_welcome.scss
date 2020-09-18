@@ -1,0 +1,42 @@
+img, media {
+    max-width: 100%;
+}
+
+
+.welcome{
+    background-image: 
+    // url(/img/img-welcome/amy-hirschi-szrJ3wjzOMg-unsplash.jpg);
+    // url(/img/img-welcome/dose-media-bU6JyhSI6zo-unsplash.jpg);
+    // url(/img/img-welcome/samantha-gades-BlIhVfXbi9s-unsplash.jpg);
+    url(/img/img-welcome/sarah-dorweiler-x2Tmfd1-SgA-unsplash.jpg);
+    display: flex;
+    height: 100vh;
+    // background-size: auto 100%;
+    // background-position: left top;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+h1{
+    // these are lines between  WELLCOME TO MY PORTFOLIO
+    &::before,
+    &::after{
+        content: '';
+        width: 75%;
+        height: 2px;
+        background: black;
+        display: block;
+        // margin: 0 auto;
+    }
+    &::after{
+        margin: 0.4em auto 0;
+        width: 95%;
+    }
+    &::before{
+        margin: 0em auto 0.4em;
+    }
+}

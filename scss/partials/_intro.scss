@@ -1,0 +1,44 @@
+.wellcome{
+    display: flex;
+    background:lightgrey;
+    
+}
+
+.wellcome-middle{
+padding: 1em;
+display: flex;
+flex-direction: column;
+justify-content: center;
+background: rgba(235, 235, 235, 1);
+// width: 30%;
+// margin-right: 3em;
+
+}
+.wellcome-left img{
+    object-fit: cover;
+    min-width: 100%;
+    min-height: 100%;
+}
+.wellcome-right img{
+    max-width: 100%;
+    object-fit: cover;
+    min-width: 100%;
+    min-height: 100%;
+    background-repeat: no-repeat;
+  background-size: cover;
+  width: 340rem !important;
+  float: right;
+  padding: 0;
+    // background-repeat: no-repeat;
+//   background-size: cover;
+//     max-width: 50% !important;
+//     max-width: 50% !important;
+}
+// .wellcome-left{
+
+// }
+
+// .wellcome-right{
+
+// }
+

@@ -1,0 +1,40 @@
+img { 
+	max-width: 100%;
+	}
+// img.thumbnail { 
+// 	width: 100px;
+// 	height: 70px;
+// 	}
+body{
+    color: gray;
+    font-family: $ff-s;
+    line-height: 1.6;
+}
+h1, h2, a{
+    margin-top: 0;
+    margin-bottom: 1em;
+}
+h1 {
+    color: black !important;
+    line-height: 1;
+    font-size: 7.125rem ;
+    // display: inline;
+    @include sans-serif($fs: 1.85rem);
+    font-family: $ff-s;
+    text-align: center;
+    
+    
+    span{
+        color: burlywood;
+        @include sans-serif($fs: 9.5rem);
+
+        display: block;
+    }
+}
+
+h2{
+    font-size: 2rem;
+    
+    line-height: 1;
+    font-family: $ff-ss;
+}
