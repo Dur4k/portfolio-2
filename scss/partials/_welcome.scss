@@ -4,6 +4,7 @@ img, media {
 
 
 .welcome{
+    
     background-image: 
     // url(/img/img-welcome/amy-hirschi-szrJ3wjzOMg-unsplash.jpg);
     // url(/img/img-welcome/dose-media-bU6JyhSI6zo-unsplash.jpg);
@@ -19,7 +20,7 @@ img, media {
     justify-content: center;
     align-items: center;
     
-}
+
 
 h1{
     // these are lines between  WELLCOME TO MY PORTFOLIO
@@ -39,4 +40,5 @@ h1{
     &::before{
         margin: 0em auto 0.4em;
     }
+}
 }

@@ -1,0 +1,51 @@
+.about-me{
+    margin-top: 4rem;
+}
+.about-img{
+    width: 70%;
+    grid-column: port-start/ img-end;
+    grid-row: 1/2;
+@media (min-width: 720px){
+    width: 100%;
+    grid-column: port-start/ img-end;
+    grid-row: 1/2;}
+
+}
+
+.about-me{
+    padding-top: 4rem;
+    margin-top: 4em;
+    display: grid;
+    @media (min-width: 720px){
+        display: grid;
+    // mixin container <----------------------/
+    width: 90%;
+    max-width: 90em;
+    margin: 0 auto;    
+    display: grid; 
+    grid-template-columns: 
+    [port-start]minmax(6rem,1fr) 
+    [name-start]minmax(6rem,1fr) 
+    [img-end]2fr
+    [port-end]; 
+
+    }
+}
+
+.about-title{
+    font-size: 5.5rem;
+    grid-column: name-start/port-end;
+    grid-row: 1/2;
+    align-self: end;
+}
+.about-subtitle{
+    color: black;
+    font-size: 4rem;
+    letter-spacing:.5rem;
+    margin: 2rem 0;
+}
+.about-subtitle,
+.about-txt{
+    grid-column: port/port;
+    color: black;
+}

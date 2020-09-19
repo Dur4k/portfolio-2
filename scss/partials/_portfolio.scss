@@ -1,0 +1,54 @@
+.portfolio{
+    text-align: center;
+    background: rgba(235, 235, 235, 1);
+    padding: 5em 0;
+}
+
+.portfolio-item{
+    position: relative;
+    overflow: hidden;
+
+    img{
+        display: block;
+    }
+    figcaption{
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right:0;
+        color: white;
+        background: rgba(burlywood, .7);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align:left;
+        padding: 2rem;
+    }
+}
+
+.portfolio-title{
+    color: rgba(235, 235, 235, 1);
+    font-size: 4rem;
+    letter-spacing:.5rem;
+    // margin-bottom: auto;
+}
+.portfolio-link{
+    color: rgba(235, 235, 235, 1);
+    font-size: 1.5rem;
+    font-weight: 900;
+    text-decoration: none;
+    border-bottom: 3px solid white;
+    align-self: flex-start;
+
+   
+}
+
+ .fa{
+        height: .8rem;
+        width: 1rem;
+        // display: inline-block;
+        // margin-left: 3.5rem;
+        color: white !important;  
+        margin-left: .8rem;
+    }
