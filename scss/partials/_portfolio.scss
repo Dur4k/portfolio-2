@@ -2,6 +2,11 @@
     text-align: center;
     background: rgba(235, 235, 235, 1);
     padding: 5em 0;
+
+    h1{
+        font-size: 3rem;
+        padding: 0rem 0rem 3rem 0rem;
+    }
 }
 
 .portfolio-item{
@@ -13,7 +18,7 @@
     }
     figcaption{
         position: absolute;
-        top: 0;
+        top: 100%;
         bottom: 0;
         left: 0;
         right:0;
@@ -24,6 +29,11 @@
         justify-content: center;
         text-align:left;
         padding: 2rem;
+        transition: ease-in-out .8s;
+    }
+    &:hover figcaption,
+    &:focus figcaption{
+        top:0
     }
 }
 
@@ -52,3 +62,25 @@
         color: white !important;  
         margin-left: .8rem;
     }
+
+// --------------> grid <-------------------------------------------->
+.portfolios-item{
+    display: grid;
+    column-gap: 15px;
+  row-gap: 15px;
+ @media (min-width: 720px){
+    
+    grid-template-columns: repeat(2,1fr);
+    width: 90%;
+    max-width: 90em;
+    margin: 0 auto;   
+    column-gap: 15px;
+ }
+}
+
+.portfolio-item.ft{
+    
+    @media (min-width: 720px){
+        grid-column: span 2;
+    }
+}
