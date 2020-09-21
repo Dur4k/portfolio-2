@@ -3,10 +3,12 @@
     max-width: 90em;
     margin: 0 auto;
     padding: 5em 0;  
+    
     @media (min-width: 720px){
-          width: 50%;
+        width: 50%;
     }
     h1{
+        font-family: $contact-me;
         text-align: center;
         font-size: 3rem;
     }
@@ -15,28 +17,33 @@ label{
     display: block;
     margin-top: 1rem;
     color: darkgray;
+    font-family: $name-email-message !important;
 
 }
 input,
 textarea{
+    box-shadow: 8px 8px 5px rgb(211, 211, 211);
+    border-radius: .5rem;
     box-sizing: border-box;
     display: block;
     width: 100%;
     background: rgba(235, 235, 235, 1);
-    border: 1px solid grey;
+    border: 2px solid rgb(218, 218, 218);
     padding: .3rem;
     font-size: 1.3rem;
 }
 .button{
     
     display: inline-block;
-        width: auto;
-        margin-top: 1rem;
-        // float: right;
-        margin-left: auto;
-        background: burlywood;
-        padding: .4rem 3rem;
-        @include sans-serif( $fs: 1.2rem, $color:white)
+    width: auto;
+    margin-top: 1rem;
+    // float: right;
+    margin-left: auto;
+    background: burlywood;
+    padding: .4rem 3rem;
+    @include sans-serif( $fs: 1.2rem, $color:white);
+    font-family: $button;
+    border: 3px solid rgb(222, 194, 155);
     
 }
 

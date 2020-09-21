@@ -15,21 +15,33 @@ h1, h2, a{
     margin-bottom: 1em;
 }
 .welcome{
+    
 h1 {
-    color: black !important;
-    line-height: 1;
-    font-size: 7.125rem ;
-    // display: inline;
+
+    @media (min-width: 720px){
+        color: black !important;
+        line-height: 1;
+        font-size: 7.125rem ;
+        // display: inline;
+        @include sans-serif($fs: 1.85rem);
+        font-family: $welcomne;
+        text-align: center;
+    }
     @include sans-serif($fs: 1.85rem);
-    font-family: $ff-s;
-    text-align: center;
+    color: black !important;
+
     
     
     span{
-        color: burlywood;
-        @include sans-serif($fs: 9.5rem);
-
+        @media (min-width: 720px){
+            color: burlywood;
+            @include sans-serif($fs: 9.5rem);
+            display: block;
+        }
         display: block;
+        color: black;
+        @include sans-serif($fs: 5.5rem);
+
     }
 }
 }

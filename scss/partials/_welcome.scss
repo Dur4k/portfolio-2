@@ -27,12 +27,20 @@ h1{
     &::before,
     &::after{
         content: '';
-        width: 75%;
+        width: 0%;
         height: 2px;
         background: black;
         display: block;
         // margin: 0 auto;
+        @media (min-width: 720px){
+            content: '';
+            width: 75%;
+            height: 2px;
+            background: black;
+            display: block;
+        }
     }
+
     &::after{
         margin: 0.4em auto 0;
         width: 95%;

@@ -1,0 +1,35 @@
+.steam1{
+    animation: vawe 1.7s ease-out infinite;
+  }
+  .steam2{
+    animation: vawe 1.7s ease-out infinite 1s;
+  }
+  
+  @keyframes vawe{
+    
+    60%{
+      opacity: 0.5;
+    }
+    
+    60%{
+      opacity: 1;
+    }
+    70%{
+      opacity: 1;
+    }
+  }
+  
+  @keyframes vawe1{
+    
+    60%{
+      opacity: 0.5;
+    }
+    
+    60%{
+      opacity: 1;
+    }
+    70%{
+      opacity: 1;
+    }
+  }
+  
