@@ -1,79 +1,65 @@
 footer{
-    @media (min-width: 720px){
-        background: burlywood;
-        padding: 2.5em 0;
-        text-align: center;
-    }
     background: burlywood;
-        padding: 4em 3em;
-        text-align: center;
-    .fa{
-        @media (min-width: 720px){
-            width: 1rem;
-            height: 1rem;
-            color:white !important;
-            font-size: 4rem;
-            margin: 0 4rem;
-        }
-        margin: 0 1.5rem;
-        font-size: 2rem;
-
-        
-    }
-    .social-icons{
-        margin:.2rem 0;
-        display: inline-flex;
-        @media (min-width: 720px){
-            margin:8rem 0;
-        }
-        
-        &::after{
-            content: '';
-            width: 12%;
-            background: whitesmoke;
-            height: 1px;
-            display: block;
-            margin: 9rem auto ;
-    
-        }
-    }
-
-    p{
-        
-        font-family: $ff-s !important;
-        text-transform:lowercase !important;
-        @include sans-serif( $fs: 1.2rem, $color:white);
-        font-family: $follow-me !important;
-
-        &::after{
-            content: '';
-            width: 12%;
-            background: whitesmoke;
-            height: 1px;
-            display: block;
-            margin: 6rem auto ;
-    
-        }
-    }
-    
-        
-}
-.botom{
-    height:  3px;
+    padding: 2.5em 0;
     text-align: center;
-    width: 100%; 
-    text-align: center;
-    
-}
-small{
-    font-size: 30px;
-    color: white;
-    font-size: 1.3rem;
-    font-family: $small;
-}
-.fa-heart,.fa-mug-hot{
-    margin:0 7px;
-    font-size: .1rem;
-    width: 1.3rem;
-
-}
+       .fa{
+           width: 1rem;
+           height: 1rem;
+           color:white !important;
+           font-size: 4rem;
+           margin: 0 4rem;
+  
+  
+       }
+       .social-icons{
+           margin:8rem 0;
+           &::after{
+               content: '';
+               width: 12%;
+               background: whitesmoke;
+               height: 1px;
+               display: block;
+               margin: 10rem auto ;
+  
+           }
+       }
+  
+       p{
+  
+           font-family: $ff-s !important;
+           text-transform:lowercase !important;
+           @include sans-serif( $fs: 1.2rem, $color:white);
+  
+           &::after{
+               content: '';
+               width: 12%;
+               background: whitesmoke;
+               height: 1px;
+               display: block;
+               margin: 10rem auto ;
+  
+           }
+       }
+  
+  
+   }
+   .botom{
+           height:  3px;
+           text-align: center;
+           // padding-left: 20px;
+  
+               width: 100%; 
+               text-align: center;
+               // margin-top: 130px;
+               // margin-bottom: 25px;
+   }
+   small{
+       font-size: 30px;
+       color: white;
+   }
+   .fa-heart,.fa-mug-hot{
+       margin:0 7px;
+       font-size: .1rem;
+       width: 1rem;
+  
+   } 
