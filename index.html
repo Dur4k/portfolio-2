@@ -6,12 +6,16 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Jan Portfolio</title>
   <link rel="stylesheet" href="css/main.css">
-  
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/v4-shims.css">
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css?v=1234" rel="stylesheet" type="text/css" /> 
 
+  
 </head>
+<script>var isTabLoaded = sessionStorage.getItem("isTabLoaded") == "true";
+    var isUserBrowserIPad = navigator.userAgent.indexOf('iPad') > -1
+    if (!isTabLoaded && isUserBrowserIPad) {
+      window.location.reload();
+      sessionStorage.setItem("isTabLoaded", "true");
+    };</script>
 <body>
 <div class="welcome">
     <h1>Welcome to my<span>Portfolio</span></h1>
